@@ -1,5 +1,6 @@
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
 const getStoredDonations = () => {
     const storedDonateItem = localStorage.getItem('Donated');
     if (storedDonateItem) {
