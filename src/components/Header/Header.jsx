@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
 
     const Links = <>
-        <li><NavLink to="/" className={({ isActive, isPending }) =>isPending ? "pending" : isActive ? "btn-link text-red-500 font-bold" : "bg-none hover:bg-none hover:text-red-500"}>Home</NavLink></li>
+        <li><NavLink to="/" className={({ isActive, isPending }) =>isPending ? "pending" : isActive ? "btn-link text-red-500 font-bold " : "bg-none hover:bg-none hover:text-red-500"}>Home</NavLink></li>
         <li><NavLink to="/donation" className={({ isActive, isPending }) =>isPending ? "pending" : isActive ? "btn-link text-red-500 font-bold" : ""}>Donation</NavLink></li>
         <li><NavLink to="/statistics" className={({ isActive, isPending }) =>isPending ? "pending" : isActive ? "btn-link text-red-500 font-bold" : ""}>Statistics</NavLink></li>
     </>
