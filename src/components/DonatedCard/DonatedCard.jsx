@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 
 const DonatedCard = ({ donatedList }) => {
@@ -17,5 +18,9 @@ const DonatedCard = ({ donatedList }) => {
         </div>
     );
 };
+
+DonatedCard.propTypes = {
+    donatedList: PropTypes.object.isRequired
+}
 
 export default DonatedCard;

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
 import { getStoredDonations } from "../Utility/LocalStorage";
 import { useLoaderData } from "react-router-dom";
