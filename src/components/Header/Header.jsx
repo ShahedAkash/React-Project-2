@@ -22,7 +22,7 @@ const Header = () => {
                 <Link to={'/'} className="btn btn-ghost hover:bg-transparent"><img className="w-full h-full" src="https://i.ibb.co/0KbJ3tw/Logo.png" alt="" /></Link>
             </div>
             <div className="navbar-end hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 space-x-4">
                     {Links}
                 </ul>
             </div>
